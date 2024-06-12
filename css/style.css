@@ -678,3 +678,31 @@ footer .social a img {
 .payment-cot form .submit-btn:hover {
   background: #2ecc71;
 }
+.qrpopup {
+  width: 400px;
+  background: #fff;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  visibility: hidden;
+  transition: tranform 0.4s, top 0.4s;
+}
+.qrpopup img {
+  height: 110px;
+  width: 100px;
+  margin-top: -50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.qr-open {
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+.qrpopup h2 {
+  font-size: 38px;
+  font-weight: 500;
+}
